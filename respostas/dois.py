@@ -26,7 +26,7 @@ class ExercicioDois():
         questao = Pergunta().retorna_pergunta(2)
         string = ("-"*20)+"\n"
         string += questao
-        string += f"\n\nA sequência fibonacci com {self.repeticoes} elementos é: {self.resultado}"
+        string += f"\n\nA sequência fibonacci com {self.repeticoes} {"elementos" if self.repeticoes != 1 else "elemento"} é: {self.resultado}"
         return string
     
 if __name__ == "__main__":

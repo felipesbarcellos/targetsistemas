@@ -1,14 +1,9 @@
-import re
-k = 0
-
-
 class Pergunta():
     def __init__(self) -> None:
         self.n_questoes: list[int] = []
         self.questoes: list[str] = []
         self.abre_perguntas()
         pass
-
 
     def abre_perguntas(self):
         with open('perguntas.txt', encoding="utf-8") as p:
@@ -22,8 +17,6 @@ class Pergunta():
                     n_questao = k
                 self.questoes.append(line)
                 self.n_questoes.append(n_questao)
-
-        ...
 
     def retorna_pergunta(self, n):
         pergunta = ""

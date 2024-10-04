@@ -22,7 +22,7 @@ if __name__ == "__main__":
                     print(respostas.dois.ExercicioDois())
                     print(respostas.tres.ExercicioTres())
                     print(respostas.quatro.ExercicioQuatro())
-                    print(respostas.cinco.ExercicioCinco(palavra))
+                    print(respostas.cinco.ExercicioCinco())
                 case 1:
                     print(respostas.um.ExercicioUm())
                 case 2:

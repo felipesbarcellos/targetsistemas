@@ -2,7 +2,7 @@ from perguntas import Pergunta
 
 #Exercício em classe para facilitar a representação
 class ExercicioCinco():
-    def __init__(self, string) -> None:
+    def __init__(self, string = "Teste Maluco") -> None:
         self.string: str = string
         self.string_invertida = self.inverte_string(self.string)
         pass

@@ -21,6 +21,8 @@ if __name__ == "__main__":
                     print(respostas.um.ExercicioUm())
                     print(respostas.dois.ExercicioDois())
                     print(respostas.tres.ExercicioTres())
+                    print(respostas.quatro.ExercicioQuatro())
+                    print(respostas.cinco.ExercicioCinco(palavra))
                 case 1:
                     print(respostas.um.ExercicioUm())
                 case 2:

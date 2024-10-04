@@ -25,8 +25,8 @@ class ExercicioTres():
         questao = Pergunta().retorna_pergunta(3)
         string = ("-"*20)+"\n"
         string += questao+"\n\n"
-        string += f"O MENOR valor de faturamento ocorrido em um dia do mês: {self.get_menor_valor()}\n"
-        string += f"O MAIOR valor de faturamento ocorrido em um dia do mês: {self.get_maior_valor()}\n"
+        string += "O MENOR valor de faturamento ocorrido em um dia do mês: R${:.2f}\n".format(self.get_menor_valor())
+        string += "O MAIOR valor de faturamento ocorrido em um dia do mês: R${:.2f}\n".format(self.get_maior_valor())
         string += f"Número de dias no mês em que o valor de faturamento diário foi superior à média mensal.: {self.acima_media_mensal}"
         return string
 

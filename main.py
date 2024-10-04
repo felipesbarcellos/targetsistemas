@@ -3,8 +3,6 @@ import respostas.dois
 import respostas.tres
 import respostas.quatro
 import respostas.cinco
-from perguntas import Pergunta
-
 
 if __name__ == "__main__":
     while True:
@@ -39,7 +37,8 @@ if __name__ == "__main__":
                     break
                 case _:
                     print("Entrada inválida. Digite apenas um dos números disponíveis")
+
         except ValueError as e:
             print("Entrada inválida. Digite apenas o número...")
+            
         input("-- Aperte ENTER para continuar --")
-

@@ -2,6 +2,7 @@ import json
 
 from perguntas import Pergunta
 
+#Exercício em classe para facilitar a representação
 class ExercicioTres():
     def __init__(self) -> None:
         #Construção das listas

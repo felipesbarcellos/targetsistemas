@@ -1,7 +1,8 @@
-import respostas.quatro
-import respostas.tres
-import respostas.dois
 import respostas.um
+import respostas.dois
+import respostas.tres
+import respostas.quatro
+import respostas.cinco
 from perguntas import Pergunta
 
 
@@ -32,7 +33,8 @@ if __name__ == "__main__":
                 case 4:
                     print(respostas.quatro.ExercicioQuatro())
                 case 5:
-                    print(respostas.cinco.ExercicioCinco())
+                    palavra = input("Digite a palavra que você deseja inverter: ")
+                    print(respostas.cinco.ExercicioCinco(palavra))
                 case 9:
                     break
                 case _:

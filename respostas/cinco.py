@@ -20,7 +20,7 @@ class ExercicioCinco():
         string = ("-"*20)+"\n"
         string += questao+"\n"
         string += f"String: {self.string}:\n"
-        string += f"String Invertida: {self.string_invertida}:\n"
+        string += f"String Invertida: {self.string_invertida}\n"
         return string
     
 if __name__ == "__main__":
